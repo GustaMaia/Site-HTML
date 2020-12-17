@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Padaria Pão de Leite, Os melhores produtos do mundo, para você.">
+    <meta name="keywords" content="padaria, pao de leite,padaria sao paulo, padaria sp, padaria zn, padaria zona norte, padaria jardim brasil.">
+    <meta name="robots" content="index, nofollow">
+    <meta name="revisit-after" content="1 month">
+    <meta name="language" content="Portuguese">
+    <meta name="generator" content="N/A">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="Imagens/favicon.png" />
+    <meta name="viewport" content="width=dev-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compartible" content="ie=edge">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+
+    <!-- jQuery library -->
+    <script src="CSS/jquery.min.js"></script>
+   
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+
+jQuery("#subirTopo").hide();
+
+jQuery('a#subirTopo').click(function () {
+         jQuery('body,html').animate({
+           scrollTop: 0
+         }, 800);
+        return false;
+   });
+
+jQuery(window).scroll(function () {
+         if (jQuery(this).scrollTop() > 200) {
+            jQuery('#subirTopo').fadeIn();
+         } else {
+            jQuery('#subirTopo').fadeOut();
+         }
+     });
+});
+    </script>
+
+    <!-- Popper JS -->
+    <script src="CSS/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="CSS/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pão de Leite</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="js_rolagem_pagina/jquery.singlePageNav.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#pagina").click(function () {
+                $("#pag").show();
+            });
+            $("#pagina").click(function () {
+                $("#sobrenos").hide();
+                $("#pizzas").hide();
+                $("#esfihas").hide();
+                $("#paometro").hide();
+                $("#bolos").hide();
+                $("#doce").hide();
+                $("#contato").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#home").click(function () {
+                $("#sobrenos").show();
+            });
+            $("#home").click(function () {
+                $("#pizzas").hide();
+                $("#esfihas").hide();
+                $("#paometro").hide();
+                $("#bolos").hide();
+                $("#doce").hide();
+                $("#contato").hide();
+                $("#pag").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#menu").click(function () {
+                $("#pizzas").show();
+            });
+            $("#menu").click(function () {
+                $("#sobrenos").hide();
+                $("#esfihas").hide();
+                $("#paometro").hide();
+                $("#bolos").hide();
+                $("#doce").hide();
+                $("#contato").hide();
+                $("#pag").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#esfirras").click(function () {
+                $("#esfihas").show();
+            });
+            $("#esfirras").click(function () {
+                $("#sobrenos").hide();
+                $("#pizzas").hide();
+                $("#paometro").hide();
+                $("#bolos").hide();
+                $("#doce").hide();
+                $("#contato").hide();
+                $("#pag").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#metro").click(function () {
+                $("#paometro").show();
+            });
+            $("#metro").click(function () {
+                $("#sobrenos").hide();
+                $("#pizzas").hide();
+                $("#esfihas").hide();
+                $("#bolos").hide();
+                $("#doce").hide();
+                $("#contato").hide();
+                $("#pag").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#gelado").click(function () {
+                $("#bolos").show();
+            });
+            $("#gelado").click(function () {
+                $("#sobrenos").hide();
+                $("#pizzas").hide();
+                $("#esfihas").hide();
+                $("#paometro").hide();
+                $("#doce").hide();
+                $("#contato").hide();
+                $("#pag").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#bala").click(function () {
+                $("#doce").show();
+            });
+            $("#bala").click(function () {
+                $("#sobrenos").hide();
+                $("#pizzas").hide();
+                $("#esfihas").hide();
+                $("#paometro").hide();
+                $("#bolos").hide();
+                $("#contato").hide();
+                $("#pag").hide();
+            });
+        });
+        $(document).ready(function () {
+            $("#tele").click(function () {
+                $("#contato").show();
+            });
+            $("#tele").click(function () {
+                $("#sobrenos").hide();
+                $("#pizzas").hide();
+                $("#esfihas").hide();
+                $("#paometro").hide();
+                $("#bolos").hide();
+                $("#doce").hide();
+                $("#pag").hide();
+            });
+        });
+    </script>
+    <script>
+        $('.navbar-nav li a').click(function () {
+            if (!$(this).parent().hasClass('dropdown')) {
+                $('.navbar-collapse').collapse('hide');
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <header class="row">
+        <nav class="col-6 col-sm-6 col-md-6">
+
+            <figure class="">
+                <img src="Imagens/selo.png" alt="logo-pao" style="width:200px; " id="pao" title ="selo" class="img-fluid">
+            </figure>
+
+        </nav>
+    </header>
+    <div>
+        <input id="menu-hamburguer" type="checkbox">
+        <label for="menu-hamburguer" class="row">
+            <div class="menu">
+                <span class="hamburguer"></span>
+            </div>
+        </label>
+
+        <!--       ul>a*nmr>li-->
+        <ul>
+            <li ><a href="#pag" id="pagina">HOME</a></li>
+            <li><a href="#sobrenos" id="home">SOBRE NÓS</a></li>
+            <li><a href="#pizzas" id="menu">PIZZAS</a></li>
+            <li><a href="#esfihas" id="esfirras">ESFIHAS</a></li>
+            <li><a href="#paometro" id="metro">PÃO DE METRO</a></li>
+            <li><a href="#bolos" id="gelado">BOLOS</a></li>
+            <li><a href="#doce" id="bala">DOCES</a></li>
+            <li><a href="#contato" id="tele">CONTATO</a></li>
+        </ul>
+    </div>
+    <main>
+        <div id="pag">
+            <section class="row">
+
+
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" style="background:url(Imagens/pizzas.png) 0 0 no-repeat; background-size:100%;">
+                                <!-- front content -->
+                            </div>
+                            <div class="back" style="background:#f8f8f8">
+                                <!-- back content -->
+                                <div class="back-logo" id="back1"></div>
+                                <div class="back-title">PIZZAS</div>
+                                <p>Padaria Pão de Leite, Os melhores produtos do mundo, para você.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" style="background:url(Imagens/esfihas.png) 0 0 no-repeat; background-size:100%;">
+                                <!-- front content -->
+                            </div>
+                            <div class="back" style="background:#f8f8f8" ;>
+                                <!-- back content -->
+                                <div class="back-logo" id="back2"></div>
+                                <div class="back-title">ESFIHAS</div>
+                                <p>Padaria Pão de Leite, Os melhores produtos do mundo, para você.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-6 col-sm-12 col-12 mx-auto">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" style="background:url(Imagens/paodemetro.png) 0 0 no-repeat;">
+                                <!-- front content -->
+                            </div>
+                            <div class="back" style="background:#f8f8f8" ;>
+                                <!-- back content -->
+                                <div class="back-logo" id="back3"></div>
+                                <div class="back-title">PÃO DE METRO</div>
+                                <p>Padaria Pão de Leite, Os melhores produtos do mundo, para você.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" style="background:url(Imagens/bolos.jpg) 0 0 no-repeat" ;>
+                                <!-- front content -->
+                            </div>
+                            <div class="back" style="background:#f8f8f8" ;>
+                                <!-- back content -->
+                                <div class="back-logo" id="back4"></div>
+                                <div class="back-title">BOLOS</div>
+                                <p>Padaria Pão de Leite, Os melhores produtos do mundo, para você.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front" style="background:url(Imagens/DOCINHOS.png) 0 0 no-repeat" ;>
+                                <!-- front content -->
+                            </div>
+                            <div class="back" style="background:#f8f8f8" ;>
+                                <!-- back content -->
+                                <div class="back-logo" id="back5"></div>
+                                <div class="back-title">DOCES</div>
+                                <p>Padaria Pão de Leite, Os melhores produtos do mundo, para você.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </section>
+        </div>
+
+        <section class="row" id="sobrenos">
+            <section class="col-10 col-sm-10 col-md-10" id="carousel">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li data-target="#demo" data-slide-to="3"></li>
+                        <li data-target="#demo" data-slide-to="4"></li>
+                        <li data-target="#demo" data-slide-to="5"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Imagens/um.jpg" alt="Faixada" title="Faixada">
+                            <div class="carousel-caption fluid-img">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagens/dois.jpg" alt="Interior" title="Interior">
+                            <div class="carousel-caption fluid-img">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagens/tres.jpg" alt="Vitrine-de-bolos" title="Vitrine de bolos">
+                            <div class="carousel-caption fluid-img">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagens/quatro.jpg" alt="Vitrine" title="Vitrine">
+                            <div class="carousel-caption fluid-img">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagens/cinco.jpg" alt="Vitrine" title="Vitrine">
+                            <div class="carousel-caption fluid-img">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Imagens/seis.jpg" alt="Faixada" title="Faixada">
+                            <div class="carousel-caption fluid-img">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </section>
+            <article class=" container text-center p-5">
+                <h1>SOBRE NÓS</h1>
+                <p>Padaria Pão de Leite, localizada na zona norte, oferece produtos de alta qualidade e uma diversidade em panificação e confeitaria, e também servimos pizzas e esfihas com excelente padrão de qualidade para atender os clientes com satisfação e requinte.
+                    <br/>
+                    <br/>Temos um atendimento personalizado porém descontraído, servimos produtos de qualidade para sua festa, seu churrasco, e para seu evento em família, buscamos como objetivo servir sempre os melhores produtos.
+                    <br/>
+                    <br/>Iniciando com grandes méritos e enfrentando grandes dificuldades no início, encontramos agora o caminho de uma prosperidade e uma parceria com todos os nossos clientes, assim é um trabalho multo de confiança e fidelidade, onde tudo isso é prezado pra que continue sempre essa parceria crescente e com muita confiança.</p>
+            </article>
+
+
+
+
+        </section>
+
+        <section class="row" id="pizzas">
+            <figure class="col-5 col-sm-5 col-md-5  mx-auto">
+                <img src="Imagens/pz.png" class="img-fluid" alt="Pizza" title="Pizza">
+            </figure>
+
+            <div class="col-12 col-sm-12 col-md-12">
+
+                <table class="table table-hover">
+                    <thead>
+                        <h2>Cardápio</h2>
+                        <tr>
+                            <th>PIZZAS</th>
+
+                            <th>PREÇOS</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>01.Aliche</strong>
+                                <br />Filé de aliche e parmesão </td>
+                            <td>R$35,99</td>
+
+                        </tr>
+
+                        <tr>
+                            <td><strong>02.Americana</strong>
+                                <br />Atum, palmito, ervilha e mussarela</td>
+                            <td>R$30,99</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><strong>03.Atum</strong>
+                                <br />Atum e cebola </td>
+                            <td>R$24,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>04.Atum especial</strong>
+                                <br />Atum, cebola e mussarela </td>
+                            <td>R$30,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>05.Atum solido</strong>
+                                <br />Atum sólido e cebola </td>
+                            <td>R$35,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>06.Bacon</strong>
+                                <br />Bacon frito e mussarela </td>
+                            <td>R$24,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>07.Baiana</strong>
+                                <br />Calabresa moída com pimenta tipo calabresa, ovo e cebola </td>
+                            <td>R$27,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>08.Bauru</strong>
+                                <br />Presunto, rodelas de tomate e mussarela. </td>
+                            <td>R$24,99</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><strong>09.Bolonhesa</strong>
+                                <br />Carne moida, cebola, mussarela e parmesão </td>
+                            <td>R$30,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>10.Brasileira</strong>
+                                <br />Atum, palmito, ervilha, ovos, bacon,cebola,catupiry e mussarela. </td>
+                            <td>R$42,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>11.Brocolis</strong>
+                                <br />Brócolis temperado, bacon </td>
+                            <td>R$36,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>12.Calabresa</strong>
+                                <br />Calabresa fatiada frita e cebola </td>
+                            <td>R$23,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>13.Camarão</strong>
+                                <br />Camarão grande temperado, catupiry e rodelas de tomate.</td>
+                            <td>R$54,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>14. Canadense</strong>
+                                <br />Lombo canadense e cebola </td>
+                            <td>R$24,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>15.Carne Seca</strong>
+                                <br />Carne seca, cebola, rodelas de tomate e mussarela. </td>
+                            <td>R$44,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>16.Escarola</strong>
+                                <br />Escarola refogada, bacon e mussarela </td>
+                            <td>R$24,99</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><strong>17.Escarola especial</strong>
+                                <br />Escarola refogada, aliche e mussarela. </td>
+                            <td>R$33,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>18.Francesa</strong>
+                                <br />Escarola refogada, aliche e mussarela. </td>
+                            <td>R$30,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>19. Frango c/ catupiry</strong>
+                                <br />Peito de frango desfiado, milho e mussarela </td>
+                            <td>R$30,99</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><strong>20.Frango Caipira</strong>
+                                <br />Peito de frango desfiado, milho e mussarela. </td>
+                            <td>R$35,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>21.Hot Dog</strong>
+                                <br />Salsicha, mussarela e bata palha. </td>
+                            <td>R$24,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>22.Marguerita</strong>
+                                <br />Mussarela, parmesão, manjericão fresco e molho de tomate. </td>
+                            <td>R$27,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>23.Mussarela</strong>
+                                <br />Queijo tipo mussarela. </td>
+                            <td>R$23,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>24.Napolitana</strong>
+                                <br />Mussarela, parmesão e rodelas de tomate. </td>
+                            <td> R$27,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>25.Palmito</strong>
+                                <br />Palmito e mussarela. </td>
+                            <td>R$27,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>26.Pepperoni</strong>
+                                <br />Mussarela com pepperoni. </td>
+                            <td>R$42,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>27.Portuguesa</strong>
+                                <br />Mussarela, ovos, presunto e cebola.</td>
+                            <td>R$23,99</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><strong>28.Três queijos</strong>
+                                <br />Mussarela, catupiry e provolone. </td>
+                            <td>R$30,99</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><strong>29.Salame</strong>
+                                <br />Mussarela com salame italiano. </td>
+                            <td> R$34,99</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>30.Toscana</strong>
+                                <br />Calabresa moída e mussarela </td>
+                            <td> R$27,99</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><strong>31.Pizza do Cliente</strong>
+                                <br />Monte sua pizza com até 4 ingrediente </td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+        </section>
+
+        <section class="row" id="esfihas">
+            <figure class="col-5 col-sm-5 col-md-5 mx-auto">
+                <img src="Imagens/12esfiha.png" class="img-fluid" alt="Esfihas" title="Esfihas">
+            </figure>
+            <div class="col-12 col-sm-12 col-md-12">
+                <table class="table table-hover">
+
+                    <thead>
+                        <h2>Cardápio</h2>
+                        <tr>
+                            <th>ESFIHAS</th>
+
+                            <th>PREÇOS</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>01.Carne</strong>
+                                <td>R$1,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>02.Queijo</strong>
+                                <td>R$1,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>03.Calabresa</strong>
+                                <td>R$1,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>04.Frango</strong>
+                                <td>R$1,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>05.Bauru</strong>
+                                <td>R$1,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>06.Chocolate</strong>
+                                <td>R$1,00</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="row" id="paometro">
+
+            <figure class="col-5 col-sm-5 col-md-5 mx-auto">
+                <img src="Imagens/pao_metro.png" class="img-fluid" alt="Pão-metro">
+            </figure>
+
+            <div class="col-md-12 col-sm-12 col-12">
+                <table class="table table-hover">
+                    <thead>
+                        <h2>Cardápio</h2>
+                        <tr>
+                            <th>PÃO DE METRO</th>
+
+                            <th>PREÇOS</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>01.Misto Salada</strong>
+                                <br />Alface, tomate, queijo, presunto e maionese.</td>
+                            <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>02.Americano</strong>
+                                <br />Alface, tomate, queijo, presunto, cenoura ralada, orégano, ovo cozido e maionese da casa.</td>
+                            <td>R$42,00 </td>
+                        </tr>
+                        <tr>
+                            <td><strong>03.Canadense</strong>
+                                <br />Alface, tomate, lombo canadense, queijo e maionese da casa.</td>
+                            <td>R$54,20 </td>
+                        </tr>
+                        <tr>
+                            <td><strong>04.Portuguesa</strong>
+                                <br />Alface, tomate, cenoura ralada, orégano, ovo cozido e maionese e milho.</td>
+                            <td>R$54,00 </td>
+                        </tr>
+                        <tr>
+                            <td><strong>05.Italiano</strong>
+                                <br />Alface, tomate, queijo branco, salame italiano, maionese da casa e orégano.</td>
+                            <td>R$54,00 </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="row" id="bolos">
+            <figure class="col-5 col-sm-5 col-md-5 mx-auto">
+                <img src="Imagens/bolos.png" class="img-fluid" alt="Bolos" title="Bolos">
+            </figure>
+
+            <div class="col-md-12 col-sm-12 col-12">
+                <table class="table table-hover">
+                    <thead>
+                        <h2>Cardápio</h2>
+                        <tr>
+                            <th>BOLOS</th>
+
+                            <th>PREÇOS</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>01.Chocolate</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>02.Prestígio</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>03.Brigadeiro</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>04.Morango</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>05.Abacaxi com COCÔ</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>06.Ninho</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>07.Tropical</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>08.Mesclado</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>08.Doce de Leite</strong>
+                                <td>R$40,00</td>
+                        </tr>
+                        <tr>
+                            <td><strong>09.Sonho de Valsa</strong>
+                                <td>R$40,00</td>
+                                <tr>
+                                    <td><strong>10.Creme Branco</strong>
+                                        <td>R$40,00</td>
+                                </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="row" id="doce">
+
+            <figure class="col-5 col-sm-5 col-md-5 mx-auto">
+                <img src="Imagens/Brigadeiro.png" class="img-fluid" alt="Doces" title="Doces">
+            </figure>
+
+            <div class="col-md-12 col-sm-12 col-12">
+                <table class="table table-hover">
+                    <thead>
+                        <h2>Cardápio</h2>
+                        <tr>
+                            <th>DOCES</th>
+
+                            <th>PREÇOS</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>01.Brigadeiro</strong>
+                                <td>R$ 0,55</td>
+                        </tr>
+                        <tr>
+                            <td><strong>02.Beijinhos</strong>
+                                <td>R$ 0,55</td>
+                        </tr>
+                        <tr>
+                            <td><strong>03.Camafey</strong>
+                                <td>R$ 0,55</td>
+                        </tr>
+                        <tr>
+                            <td><strong>04.Prestígio</strong>
+                                <td>R$ 0,55</td>
+                        </tr>
+                        <tr>
+                            <td><strong>05.Carolina</strong>
+                                <td>R$ 0,55</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </section>
+
+        <section class="row" id="contato">
+            <section class="container">
+
+                <div id="contatopadaria">
+                    <h1>Contato</h1></div>
+
+                <section class="row">
+                    <div class="col-md-6">
+                        <p>Padaria Pão de Leite, localizada na zona norte, oferece produtos de alta qualidade e uma diversidade em panificação e confeitaria, e também servimos pizzas e esfihas com excelente padrão de qualidade para atender os clientes com satisfação e requinte.</p>
+                        <h2>Fale Conosco</h2>
+                        <br>
+                        <i class="fa fa-envelope-o" style="font-size:48px"></i>
+                        <h5>Telefone:</h5>
+                        <p>+55 (11) 4327-4309</p>
+                        <h5>Endereço:</h5>
+                        <p> Rua Itamonte, 2741 - Vila Medeiros</p>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14637.695289384716!2d-46.56316247579885!3d-23.48123918992301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5860d2dbc71%3A0x44c62c5dec099ceb!2sR.+Itamonte%2C+2741+-+Vila+Medeiros%2C+S%C3%A3o+Paulo+-+SP%2C+02220-002!5e0!3m2!1spt-BR!2sbr!4v1557167031419!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </section>
+            </section>
+
+
+
+
+        </section>
+    
+    </main>
+   
+    <a id="subirTopo">
+  ^ <br> subir
+</a>
+<footer class="row p-4 text-white" style="font-size: 15px;">
+    <p class="text-center col-sm-12 col-md-12 col-12">Rua Itamonte, 2741 - Vila Medeiros.<br> Contato: +55 (11) 4327-4309.<br>
+    &copy;Copyright 2019 - Todos Direitos reservados.<br>
+        Desenvolvido por: <a href="https://twitter.com/AlexandreYucra?s=09" target="_blank" style="font-size: 15px;">@AlexandreYucra</a>, <a href="https://www.instagram.com/gustac_maia/?hl=pt-br" target="_blank">@gustac_maia</a>, <a href="https://instagram.com/rrenan.almeida?igshid=42akkbmm7ixw"  target="_blank" style="font-size:15px;">@rrenan.almeida</a></p>
+</footer>
+</body>
+
+</html>
